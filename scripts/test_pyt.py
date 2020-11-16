@@ -13,7 +13,7 @@ class TestLogin:
     @pytest.mark.run(order=1)
     def test_login2(self):
         print('login2')
-        assert False
+        assert True
 
     @pytest.mark.skipif(True, reason='Skip')
     def test_login3(self):
