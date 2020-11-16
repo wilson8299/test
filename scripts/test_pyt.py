@@ -23,5 +23,5 @@ class TestLogin:
     def teardown_class(self):
         print('teardown')
 
-if __name__ == '__main__':
-    pytest.main(['-s', 'D:\\PythonPractice\\pytestPractice\\pyt.py'])
+# if __name__ == '__main__':
+#     pytest.main(['-s', 'D:\\PythonPractice\\pytestPractice\\pyt.py'])
